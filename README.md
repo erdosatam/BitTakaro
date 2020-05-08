@@ -1,15 +1,15 @@
 # BitTakaro
-`(c) BP18Project, erdos, v.1.8`
+`(c) 2020 BP18Project, erdos, v.1.8`
 
->Alkalmzás: [Letöltés](deploy/BitTakaro.jar)
+>Alkalmzás: <a href="deploy/BitTakaro.jar">Letöltés</a>
 
 ## Leírás
-Az alkalmazás szöveg titkosítására való. AES 128 bit-es titkosítást használ Base64 encoder segítségével.
+Az alkalmazás szöveg titkosítására való. AES 128 bit-es titkosítást használ.
 
 
 ## Használat:
 
-####Menü struktúra:
+#### Menü struktúra:
 >Fájl (Fájl műveletek)
 - Új titkosított fájl - Új fájl létrehozása. Először bekéri a titkosításhoz szükséges kulcsot.
 - Fájl betöltése Fájl -  kiválasztása, titkosító kulcs megadása
