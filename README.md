@@ -1,0 +1,2 @@
+# BitTakaro
+Text editor
