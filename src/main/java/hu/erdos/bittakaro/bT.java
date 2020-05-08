@@ -18,6 +18,9 @@ import java.util.Vector;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * A fő ablak objektuma.
+ */
 public class bT extends JFrame implements ActionListener {
 
     public static String VersionNumber = "1.8";
@@ -59,8 +62,6 @@ public class bT extends JFrame implements ActionListener {
     int keyLength = 16;
     static JTextArea txA = new JTextArea();
     static JScrollPane scTXA = new JScrollPane(txA);
-
-
 
     static String decData = null;
     static String encData = new String();
@@ -112,6 +113,10 @@ public class bT extends JFrame implements ActionListener {
         mntDoc.addActionListener(this);
     }
 
+    /**
+     * Gomb kattintás figyelő
+     * @param e a gomb Obijektum
+     */
     public void actionPerformed(ActionEvent e){
         for (int i=0; i<5; i++){
             if (e.getSource().equals(mnuR[i])){
@@ -189,6 +194,10 @@ public class bT extends JFrame implements ActionListener {
 
     }
 
+    /**
+     * A szöveg mentése
+     * @param Data - szöveg
+     */
     public void SaveData(String Data){
         File SFile = null;
         if (keyValue != null){
@@ -224,6 +233,10 @@ public class bT extends JFrame implements ActionListener {
         mntRecently.setText("Legutóbb használt: ");
     }
 
+    /**
+     * A file megnyitó rendszerpanel meghívőja.
+     * @return - A fájl abszolút elérési útja
+     */
     public String fileOpen(){
         File OFile = null;
         String pathF = new String();
@@ -239,6 +252,10 @@ public class bT extends JFrame implements ActionListener {
         return pathF;
     }
 
+    /**
+     * Fájl megnyitás
+     * @throws IOException - Kivétel kezelés I/O hiba esetén
+     */
     public void OpenData() throws IOException{
         lblFileInfo.setText(fileOpen());
         encData="";
@@ -257,6 +274,12 @@ public class bT extends JFrame implements ActionListener {
         }
 
     }
+
+    /**
+     * Előzmény megnyitás
+     * @param RF - Legutób megnyitott fájl
+     * @throws IOException
+     */
     public void OpenRecentData(String RF) throws IOException{
         lblFileInfo.setText(RF);
         txA.setVisible(true);

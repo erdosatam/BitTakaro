@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="hu.erdos.bittakaro.AES",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classhu_1_1erdos_1_1bittakaro_1_1AES.html",tooltip=" "];
+}

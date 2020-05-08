@@ -1,0 +1,11 @@
+digraph "hu.erdos.bittakaro.bT"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{hu.erdos.bittakaro.bT\n|+ VersionNumber\l~ confDir\l~ recent\l~ getRec\l~ cfrm\l~ mp\l~ bp\l~ txpane\l~ menuB\l~ Fmenu\l~ Tmenu\land 17 more...\l~ txA\l~ scTXA\l~ decData\l~ encData\l- keyValue\l|+ bT()\l+ actionPerformed()\l+ SaveData()\l+ fileOpen()\l+ OpenData()\l+ OpenRecentData()\l+ pWindow()\l+ passIsGood()\l+ setPass()\l+ newPassword()\land 7 more...\l+ putDataToArea()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{JFrame\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{ActionListener\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

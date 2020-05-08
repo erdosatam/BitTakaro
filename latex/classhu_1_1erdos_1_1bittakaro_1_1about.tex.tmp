@@ -1,0 +1,29 @@
+\hypertarget{classhu_1_1erdos_1_1bittakaro_1_1about}{}\doxysection{hu.\+erdos.\+bittakaro.\+about Class Reference}
+\label{classhu_1_1erdos_1_1bittakaro_1_1about}\index{hu.erdos.bittakaro.about@{hu.erdos.bittakaro.about}}
+
+
+Inheritance diagram for hu.\+erdos.\+bittakaro.\+about\+:
+% FIG 0
+
+
+Collaboration diagram for hu.\+erdos.\+bittakaro.\+about\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classhu_1_1erdos_1_1bittakaro_1_1about_a8826c145310a3bdc56221dae530f0e65}{about}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classhu_1_1erdos_1_1bittakaro_1_1about_a8826c145310a3bdc56221dae530f0e65}\label{classhu_1_1erdos_1_1bittakaro_1_1about_a8826c145310a3bdc56221dae530f0e65}} 
+\index{hu.erdos.bittakaro.about@{hu.erdos.bittakaro.about}!about@{about}}
+\index{about@{about}!hu.erdos.bittakaro.about@{hu.erdos.bittakaro.about}}
+\doxysubsubsection{\texorpdfstring{about()}{about()}}
+{\footnotesize\ttfamily hu.\+erdos.\+bittakaro.\+about.\+about (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/hu/erdos/bittakaro/\mbox{\hyperlink{about_8java}{about.\+java}}\end{DoxyCompactItemize}
